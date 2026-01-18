@@ -1,0 +1,649 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family:sans-serif;
+  
+}
+
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  background-color:rgb(22, 47, 65);
+ 
+}
+
+.parent1{
+    height: 78vh;
+    width:100%;
+    place-items: center;
+    display: flex;
+    overflow: hidden;
+}
+.parent2{
+    height: 18vh;
+    width: 100%;
+    background-color:rgb(17, 23, 31);
+    display: flex;
+    justify-content: center;
+    gap: 7vw;
+}
+@media(max-width:768px){
+    body{
+    height:auto;
+    width: 100%;
+
+}
+
+.parent1{
+    height:auto;
+    width:100%;
+    place-items: center;
+}
+.parent2{
+    height: 18vh;
+    width: 100%;
+   gap: 1vw;
+}
+}
+@media(max-width:1024px){
+
+.parent2{
+    height: 18vh;
+    width: 100%;
+   gap: 3vw;
+}
+
+}
+
+
+
+
+
+.parent1 .child1{
+    width: 50%;
+    height: 100%;
+    place-items: end;
+  
+}
+.parent1 .child2{
+    width: 50%;
+    height: 100%;
+   background:rgb(231, 231, 231);
+}
+
+
+@media(max-width:768px){
+
+ 
+.parent1 .child1{
+    width: 30%;
+    height: 90vh;
+  
+}
+.parent1 .child2{
+    width: 70%;
+    height: 90vh;
+    
+}
+}
+@media(max-width:1024px){
+
+.parent1 .child1{
+    width: 30%;
+   
+  
+}
+.parent1 .child2{
+    width: 70%;
+
+    
+}
+
+}
+
+
+.parent1 .child1 section{
+    width: 62%;
+    height: 100%;
+}
+.parent1 .child2 section{
+    width: 62%;
+    height: 100%;
+}
+
+@media(max-width:1024px){
+    
+.parent1 .child1 section{
+    width: 100%;
+    height: 100%;
+}
+.parent1 .child2 section{
+    width: 100%;
+    height: 100%;
+}
+}
+
+
+
+
+
+.parent1 .child1 section .content1{
+    height:15%;
+    width: 100%;
+
+     
+}
+
+.parent1 .child1 section .content2{
+    height:40%;
+    width: 100%;
+
+    position: relative;
+
+}
+.parent1 .child1 section .content3{
+    height:45%;
+    width: 100%;
+  
+      display: flex;
+      flex-direction: column;
+}
+@media (max-width:768px){
+.parent1 .child1 section .content1{
+
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.parent1 .child1 section .content2{
+  
+  display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+.parent1 .child1 section .content3{
+    display: flex;
+    padding-left: 0px;
+   
+}
+}
+ @media(min-width:769px)and(  max-width:1024px  ){
+
+.parent1 .child1 section .content1{
+
+   
+
+}
+
+.parent1 .child1 section .content2{
+  
+
+}
+.parent1 .child1 section .content3{
+  
+   
+}
+
+
+ }
+
+
+
+
+
+
+
+.parent1 .child1 section .content1 h3{
+
+    font-size: x-large;
+    color: rgb(248, 123, 143);
+
+
+}
+.parent1 .child1 section .content2 .content2-child{
+ 
+ height:100%;
+ width: 42vw;
+
+ position: relative;
+ flex-direction: column;
+ display: flex;
+   color: white;
+}
+.parent1 .child1 section .content2 .content2-child h1{
+    font-size:10rem;
+     
+     margin: 0;
+    
+}
+
+.parent1 .child1 section .content2 .content2-child h3{
+    font-size: 5rem;
+     margin: 0;
+}
+
+.parent1 .child1 section .content3 .content3-child{
+    width: 65%;
+    height:45%;
+
+    place-self: end;
+    background-color: white;
+    display: block;
+    margin-right:20px;
+
+}
+.parent1 .child1 section .content3 .content3-child h3{
+font-size: 2rem;
+display: flex;
+padding: 20px;
+margin: 0;
+}
+
+.parent1 .child1 section .content3 .content3-child2{
+
+
+width: 40%;
+height: 20%;
+background-color: rgb(248, 123, 143);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.parent1 .child1 section .content3 .content3-child2 h2{
+   font-size: xx-large;
+   margin: 0;
+}
+@media(max-width:768px){
+
+.parent1 .child1 section .content1 h3{
+
+    font-size: large;
+    color: rgb(248, 123, 143);
+
+
+}
+ .parent1 .child1 section .content2 .content2-child{
+ 
+ height:100%;
+ width: 97vw;
+   justify-content: center;
+     align-items: center;
+   
+
+}
+.parent1 .child1 section .content2 .content2-child h1{
+    font-size:4.7rem;
+     display: flex;
+   
+    
+}
+
+.parent1 .child1 section .content2 .content2-child h3{
+    font-size: 2.5rem;
+     margin: 0;
+}
+
+.parent1 .child1 section .content3 .content3-child{
+    width: 100%;
+    height:45%;
+  
+    place-self: end;
+    background:rgb(231, 231, 231);
+    display: block;
+    margin-right:0px;
+
+}
+.parent1 .child1 section .content3 .content3-child h3{
+font-size: 1rem;
+display: flex;
+padding: 20px;
+margin: 0;
+}
+
+.parent1 .child1 section .content3 .content3-child2{
+
+width: 80%;
+height: 15%;
+background-color: rgb(248, 123, 143);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.parent1 .child1 section .content3 .content3-child2 h2{
+   font-size: large;
+   margin: 0;
+}
+
+
+}
+ @media(min-width:769px) and (  max-width:1024px  ){
+
+.parent1 .child1 section .content1 h3{
+
+    font-size: xx-large;
+    color: rgb(248, 123, 143);
+
+
+}
+.parent1 .child1 section .content2 .content2-child{
+ 
+ height:100%;
+ width: 70vw;
+   justify-content: center;
+     align-items: center;
+   
+
+}
+.parent1 .child1 section .content2 .content2-child h1{
+    font-size:7rem;
+     display: flex;
+   
+    
+}
+
+.parent1 .child1 section .content2 .content2-child h3{
+    font-size: 3rem;
+     margin: 0;
+}
+
+.parent1 .child1 section .content3 .content3-child{
+ 
+  
+    place-self: end;
+    background:rgb(231, 231, 231);
+    display: block;
+    margin-right:0px;
+
+}
+.parent1 .child1 section .content3 .content3-child h3{
+font-size: 1.5rem;
+display: flex;
+padding: 20px;
+margin: 0;
+}
+
+.parent1 .child1 section .content3 .content3-child2{
+
+width: 50%;
+height: 15%;
+background-color: rgb(248, 123, 143);
+color: white;
+display: flex;
+justify-content: center;
+
+
+}
+.parent1 .child1 section .content3 .content3-child2 h2{
+   font-size:x-large;
+   margin: 0;
+}
+
+
+} 
+
+
+
+
+.parent1 .child2 section .content1{
+    height: 15%;
+    width: 100%;
+
+    display: flex;
+      justify-content: center;
+    align-items: center;
+}
+
+
+.parent1 .child2 section .content1 ul{
+    display: flex;
+    white-space: nowrap;
+    gap: 3rem;
+  
+}
+.parent1 .child2 section .content1 ul li{
+    list-style-type: none;
+}
+
+.parent1 .child2 section .content1 ul li a{
+    position: relative;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 3px;
+}
+.parent1 .child2 section .content1 ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: rgb(255, 81, 0);
+  transition: width 0.3s ease;
+}
+.parent1 .child2 section .content1 ul li a:hover::after {
+  width: 100%;
+}
+
+@media(max-width:768px){
+
+
+.parent1 .child2 section .content1{
+    height: 15%;
+    width: 100%;
+  
+    display: flex;
+      justify-content:flex-start;
+    align-items: center;
+  
+}
+
+
+.parent1 .child2 section .content1 ul{
+    display: flex;
+    white-space: nowrap;
+    gap: 3.1vw;
+  margin: 0;
+    padding: 0;
+}
+.parent1 .child2 section .content1 ul li{
+    list-style-type: none;
+}
+
+.parent1 .child2 section .content1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    font-size:11px;
+}
+
+}
+
+@media(min-width:769px) and (max-width:1024px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.parent1 .child2 section .content2{
+    height: 85%;
+    width: 100%;
+
+    display: flex;
+}
+.parent1 .child2 section .content2 .imges{
+
+ height: 100%;
+ width: 90%;
+}
+
+
+
+.parent1 .child2 section .content2  img{
+
+width: 100%;
+height: 98%;
+
+
+}
+.parent1 .child2 section .content2 .icon {
+
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+.parent1 .child2 section .content2 .icon ul{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+padding: 0;
+
+}
+.parent1 .child2 section .content2 .icon ul li{
+list-style-type: none;
+display: flex ;
+font-size: xx-large;
+
+    
+}
+.parent1 .child2 section .content2  ul li  i{
+    color: rgba(0, 0, 0, 0.808);
+    margin: 0;
+padding: 0;
+cursor: pointer;
+}
+.parent1 .child2 section .content2  ul li  i:hover{
+   color: rgba(255, 0, 98, 0.829);
+
+}
+
+@media(max-width:768px){
+    .parent1 .child2 section .content2{
+    height: 85%;
+    width: 100%;
+
+    display: flex;
+}
+.parent1 .child2 section .content2 .imges{
+
+ height:100%;
+ width: 100%;
+ display: flex;
+
+}
+
+
+
+.parent1 .child2 section .content2  img{
+
+width:auto;
+height:100%;
+
+
+}
+.parent1 .child2 section .content2 .icon {
+ 
+    width: 10%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     position: absolute;
+   
+}
+.parent1 .child2 section .content2 .icon ul{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+padding: 0;
+
+}
+.parent1 .child2 section .content2 .icon ul li{
+list-style-type: none;
+display: flex ;
+font-size: xx-large;
+
+    
+}
+
+}
+
+
+.parent2 .child1{
+    width: 16%;
+    height:100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.parent2 .child1 h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.parent2 .child1 h4{
+    font-weight: 500;
+    
+}
+@media(max-width:768px){
+    .parent2 .child1{
+    width: 80%;
+    height:100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.parent2 .child1 h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.parent2 .child1 h4{
+    font-weight: 500;
+    font-size: small;
+    
+}
+}
+@media(min-width:769px) and (max-width:1024px){
+.parent2 .child1{
+    width: 32.5%;
+    height:100%;
+ 
+}
+.parent2 .child1 h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.parent2 .child1 h4{
+    font-weight: 500;
+font-size: x-large;
+}
+}
